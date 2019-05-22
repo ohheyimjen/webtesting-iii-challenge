@@ -2,7 +2,7 @@
 import React from 'react';
 import { render } from 'react-testing-library';
 import Display from './Display';
-import { get } from 'https';
+import 'jest-dom/extend-expect';
 
 const testData = {
   closed: true,
